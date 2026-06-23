@@ -1,7 +1,7 @@
 # The Precious Gift Adult Family Home
 
-CareDesk Home system generated on 2026-06-20T12:16:30.656Z.
-Client ID: `cd_home_2274`
+CareDesk Home system generated on 2026-06-23T11:36:58.770Z.
+Client ID: `cd_home_3284`
 
 This is a ready-to-deploy Adult Family Home management system.
 The Supabase project URL and anon key are already injected into `index.html`.
@@ -38,7 +38,9 @@ The Supabase project URL and anon key are already injected into `index.html`.
 
 | File | Purpose |
 |------|---------|
-| `index.html` | The full CareDesk Home app — pre-filled with this client's data. |
+| `index.html` | HTML shell — layout, modals, and page structure. |
+| `app.css` | All styles — edit brand colours, fonts, and layout here. |
+| `app.js` | All application logic — Supabase calls, forms, reports, charts. |
 | `manifest.json` | PWA manifest — enables "Add to Home Screen" on mobile devices. |
 | `vercel.json` | Vercel routing config — already set up, nothing to change. |
 | `.gitignore` | Keeps secrets and OS files out of version control. |

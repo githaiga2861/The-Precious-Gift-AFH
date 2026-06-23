@@ -5,7 +5,7 @@
   "scope": "./",
   "display": "standalone",
   "background_color": "#0e1014",
-  "theme_color": "#e25351",
+  "theme_color": "#6d0524",
   "description": "Adult Family Home management system powered by CareDesk.",
   "icons": [
     {
