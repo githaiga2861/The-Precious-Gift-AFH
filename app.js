@@ -2,7 +2,7 @@
  const SUPABASE_KEY = 'sb_publishable_TruCt22sBT6Uk7wsJKQRCg_zGtwi5CC';
  const MASTER_SUPABASE_URL = 'https://eeeqldslwrpkggfcxpgp.supabase.co';
  const MASTER_SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVlZXFsZHNsd3Jwa2dnZmN4cGdwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODEwMjk5MjYsImV4cCI6MjA5NjYwNTkyNn0.GEmEQGXpfZITbBcZhoSy7nHPbxqKKeQmGIO4uuExB8k';
- const CLIENT_ID = 'cd_home_7584';
+ const CLIENT_ID = 'cd_home_7835';
  const db = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
  const masterDb = (MASTER_SUPABASE_URL && MASTER_SUPABASE_URL !== 'https://eeeqldslwrpkggfcxpgp.supabase.co')
    ? supabase.createClient(MASTER_SUPABASE_URL, MASTER_SUPABASE_KEY) : null;
@@ -12,7 +12,7 @@
 // LOCKOUT POLLER — reads from CareDesk Pro master DB
 // ══════════════════════════════════
 async function fetchLockoutState() {
-  if (!masterDb || !CLIENT_ID || CLIENT_ID === 'cd_home_7584') return;
+  if (!masterDb || !CLIENT_ID || CLIENT_ID === 'cd_home_7835') return;
   try {
     const { data } = await masterDb
       .from('caredesk_clients')
@@ -275,7 +275,7 @@ function initApp() {
   seedExistingStaff();
   initTutorialFab();
   maybeAutoStartTutorial();
-  if (masterDb && CLIENT_ID && CLIENT_ID !== 'cd_home_7584') {
+  if (masterDb && CLIENT_ID && CLIENT_ID !== 'cd_home_7835') {
     startLockoutPoller();
   }
 }

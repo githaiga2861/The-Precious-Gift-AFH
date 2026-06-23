@@ -1117,7 +1117,7 @@
   --accent:#630a21;
   --accent2:#630a21;
   --accent3:#630a21;
-  --info:#e25150;
+  --info:#fbeaeb;
 }
 .btn-primary, button.btn-primary {
   background: linear-gradient(135deg,#630a21,#630a21) !important;
