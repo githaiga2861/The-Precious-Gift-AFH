@@ -1,7 +1,7 @@
 # The Precious Gift Adult Family Home
 
-CareDesk Home system generated on 2026-06-23T11:36:58.770Z.
-Client ID: `cd_home_3284`
+CareDesk Home system generated on 2026-06-23T12:17:39.943Z.
+Client ID: `cd_home_3852`
 
 This is a ready-to-deploy Adult Family Home management system.
 The Supabase project URL and anon key are already injected into `index.html`.

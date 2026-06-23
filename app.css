@@ -1114,12 +1114,12 @@
 
 /* CareDesk Pro — injected brand colours */
 :root {
-  --accent:#6d0524;
-  --accent2:#6d0524;
-  --accent3:#6d0524;
+  --accent:#630a21;
+  --accent2:#630a21;
+  --accent3:#630a21;
   --info:#e25150;
 }
 .btn-primary, button.btn-primary {
-  background: linear-gradient(135deg,#6d0524,#6d0524) !important;
+  background: linear-gradient(135deg,#630a21,#630a21) !important;
 }
-.nav-item.active { border-left-color:#6d0524 !important; }
+.nav-item.active { border-left-color:#630a21 !important; }
